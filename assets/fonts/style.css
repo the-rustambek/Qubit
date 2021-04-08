@@ -1605,7 +1605,7 @@ width: 32%;
     }
 
     .header-form {
-        /* margin-right: 75px; */
+        margin-right: 40px;
     }
 
     .header-text {
@@ -1616,4 +1616,19 @@ width: 32%;
     .header-title {
         margin-top: 8px;
     }
+    .wrap{
+        padding: 0px;
+    }
+    .inner,.footer, .holder, .page, .box, .sidebar, .aside, .content, .wrapper, .header{
+        padding: 40px 20px;
+    }
+.inner-title{
+    margin-bottom: 0px;
+}
+.header-btn--active{
+    padding: 10px 30px;
+}
+.content-blok{
+    align-items: flex-start;
+}
 }
